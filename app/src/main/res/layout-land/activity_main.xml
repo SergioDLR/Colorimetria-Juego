@@ -1,0 +1,61 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+
+    <TableLayout
+        android:layout_marginTop="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Color Puzzle"
+                android:textColor="#f0f0f0"
+                android:textSize="42dp"
+                android:fontFamily="serif-monospace"
+                android:textAlignment="center"/>
+        <Button
+            style="@style/EstiloBotones"
+            android:text="@string/ranking"
+            android:id="@+id/Ranking"
+            android:layout_above="@id/Iniciar"
+            android:onClick="verRanking"/>
+        <TableRow>
+
+            <Button
+                style="@style/EstiloBotones"
+                android:text="@string/Baja"
+                android:id="@+id/baja"
+                android:onClick="click"/>
+            <Button
+                android:id="@+id/Media"
+                style="@style/EstiloBotones"
+                android:text="@string/Media"
+                android:onClick="click"/>
+            <Button
+                android:id="@+id/Alta"
+                style="@style/EstiloBotones"
+                android:text="@string/Alta"
+                android:onClick="click"/>
+        </TableRow>
+        <Button
+            style="@style/EstiloBotones"
+            android:text="@string/Iniciar"
+            android:onClick="iniciar"/>
+
+    </TableLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textColor="#f0f0f0"
+        android:id="@+id/dif"/>
+</RelativeLayout>

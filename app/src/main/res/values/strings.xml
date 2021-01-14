@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Entrega 3</string>
+    <string name="Baja">Baja</string>
+    <string name="Media">Media</string>
+    <string name="Alta">Alta</string>
+    <string name="Iniciar">Iniciar juego</string>
+    <string name="ranking">Ver ranking</string>
+    <string name="puntuacion">Intercambios: "\n"</string>
+    <string name="facil">Fácil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Dificil</string>
+    <string name="dificultad">Elija una dificultad</string>
+    <string name="ganador">La cantidad de movimientos se encuentra entre los mejores 15</string>
+    <string name="gana">Ganaste</string>
+    <string name="salida">¿Estas seguro que deseas salir?, se perdera el progreso actual</string>
+    <string name="titulo">Terminar Partida</string>
+    <string name="salir">Salir</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ganaste">Ganaste, con un total de moviemientos de</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="volver">Volver al menú</string>
+    <string name="jugarotravez">Volver a jugar</string>
+    <string name="elegir">Elegir nuevo tablero</string>
+    <string name="compartir">Gane en color puzzle con una puntuacion de: </string>
+    <string name="en">en</string>
+    <string name="capo">. Soy un capo</string>
+    <string name="compar">Compartir puntuacion!</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="wna">Compartir Puntuacion!</string>
+    <string name="sh">Gane!</string>
+    <string name="cerrarApp">¿Estas seguro de querer cerrar la app?</string>
+    <string name="cerrarAppTitulo">Cerrar app</string>
+    <string name="rank">Chequea el ranking actual de Color Drawable!</string>
+    <string name="exit">Salir</string>
+    <string name="ganas">Ganaste</string>
+</resources>

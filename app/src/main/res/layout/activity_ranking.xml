@@ -1,0 +1,311 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView android:id="@+id/ScrollViewID"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:padding="20sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:text="Ranking"
+                android:textAlignment="center"
+                android:textSize="42dp" />
+
+            <TableRow android:layout_width="match_parent">
+
+                <TextView
+                    android:id="@+id/jugador1"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad1"
+                    android:text="@string/Baja"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos1"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador2"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad2"
+                    android:text="@string/Baja"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos2"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador3"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad3"
+                    android:text="@string/Baja"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos3"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador4"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad4"
+                    android:text="@string/Baja"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos4"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador5"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad5"
+                    android:text="@string/Baja"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos5"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador6"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad6"
+                    android:text="@string/Media"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos6"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador7"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad7"
+                    android:text="@string/Media"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos7"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador8"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad8"
+                    android:text="@string/Media"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos8"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador9"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad9"
+                    android:text="@string/Media"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos9"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador10"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad10"
+                    android:text="@string/Media"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos10"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador11"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad11"
+                    android:text="@string/Alta"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos11"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador12"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad12"
+                    android:text="@string/Alta"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos12"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador13"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad13"
+                    android:text="@string/Alta"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos13"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador14"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad14"
+                    android:text="@string/Alta"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos14"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/jugador15"
+                    android:text="Jugador"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/dificultad15"
+                    android:text="@string/Alta"
+                    android:textAlignment="center"
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/movimientos15"
+                    android:text="Movimientos"
+                    android:textSize="18dp"/>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

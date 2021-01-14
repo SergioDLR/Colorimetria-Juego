@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Entrega 3</string>
+    <string name="Baja">Easy</string>
+    <string name="Media">Medium</string>
+    <string name="Alta">Hard</string>
+    <string name="Iniciar">Start Game</string>
+    <string name="ranking">Watch Ranking</string>
+    <string name="puntuacion">Exchanges: "\n"</string>
+    <string name="facil">Easy</string>
+    <string name="medio">Medium</string>
+    <string name="dificil">Hard</string>
+    <string name="dificultad">Choose a difficulty</string>
+    <string name="ganador">The amount of movements is among the best 15th</string>
+    <string name="gana">You win</string>
+    <string name="salida">Are you sure you want to leave? Current progress will be lost</string>
+    <string name="titulo">End Game</string>
+    <string name="salir">Exit</string>
+    <string name="cancelar">Cancell</string>
+    <string name="ganaste">You won, with a total of movements of</string>
+    <string name="reiniciar">Reset</string>
+    <string name="volver">Back to menu</string>
+    <string name="jugarotravez">Start Again</string>
+    <string name="elegir">Choose new difficulty</string>
+    <string name="compartir">I won color puzzle with a score of: </string>
+    <string name="en">in</string>
+    <string name="capo">. Im the boss</string>
+    <string name="compar">Share score!</string>
+    <string name="ayuda">Help</string>
+    <string name="wna">Share score!</string>
+    <string name="sh">I won!</string>
+    <string name="cerrarApp">Are you sure you want to close the application?</string>
+    <string name="cerrarAppTitulo">Close app</string>
+    <string name="rank">Check the current ranking of Color Drawable!</string>
+    <string name="exit">Exit</string>
+    <string name="ganas">You win</string>
+</resources>

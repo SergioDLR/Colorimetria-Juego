@@ -1,0 +1,58 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color puzzle"
+        android:textColor="#f0f0f0"
+        android:textSize="42dp"
+        android:fontFamily="serif-monospace"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"/>
+    <Button
+        android:layout_centerInParent="true"
+        style="@style/EstiloBotones"
+        android:text="@string/Baja"
+        android:id="@+id/baja"
+        android:onClick="click"/>
+    <Button
+        android:id="@+id/Media"
+        android:layout_below="@id/baja"
+        style="@style/EstiloBotones"
+        android:text="@string/Media"
+        android:onClick="click"/>
+    <Button
+        android:layout_below="@id/Media"
+        android:id="@+id/Alta"
+        style="@style/EstiloBotones"
+        android:text="@string/Alta"
+        android:onClick="click"/>
+    <Button
+        android:layout_alignParentBottom="true"
+        style="@style/EstiloBotones"
+        android:text="@string/Iniciar"
+        android:id="@+id/Iniciar"
+        android:onClick="iniciar"/>
+    <Button
+
+        style="@style/EstiloBotones"
+        android:text="@string/ranking"
+        android:id="@+id/Ranking"
+       android:layout_above="@id/Iniciar"
+        android:onClick="verRanking"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Alta"
+        android:textSize="32dp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:textColor="#f0f0f0"
+        android:id="@+id/dif"/>
+
+</RelativeLayout>
